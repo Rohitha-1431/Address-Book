@@ -26,12 +26,12 @@ public class AddressBook {
                     break;
                 }
                 break;
-//            case 2:
-//                editContact();
-//                break;
-//            case 3:
-//                deleteContact();
-//                break;
+            case 2:
+             editContact();
+                break;
+            case 3:
+                deleteContact();
+                break;
             default:
                 System.out.println("You choose Wrong Option please choose right option");
                 //Main.chooseOption();
