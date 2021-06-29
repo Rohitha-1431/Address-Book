@@ -112,6 +112,21 @@ public class AddressBook {
             System.out.println("Contact Not Found");
         }
     }
+    public static void deleteContact() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the Contact Person name");
+        String name = scan.next();
+        for (int i = 0; i < user.size(); i++) {
+            if (user.get(i).inputFirstname.equalsIgnoreCase(name)) {
+                System.out.println("Contact found");
+                user.remove(i);
+                System.out.println("Contact Removed From Address Book");
+                System.out.println(user);
+                break;
+            }
+            System.out.println("Contact not found");
+        }
+    }
 
     public static void main(String[] args) {
         //UC1
