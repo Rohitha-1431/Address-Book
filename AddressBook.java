@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class AddressBook {
 	static ArrayList<ContactInfo> user = new ArrayList<ContactInfo>();
-    static int flag = 0;
+   
 
     public static void addContact() {
         ContactInfo a1 = new ContactInfo();
